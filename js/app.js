@@ -1058,8 +1058,6 @@
             </div>
 
             <div class="subNoteList">
-              <p><strong>Checkout reale:</strong> questa build usa Netlify Functions + Stripe Checkout + Supabase Auth.</p>
-              <p class="muted">Per completare il collegamento devi configurare le variabili ambiente di Netlify e creare in Stripe i due prezzi (mensile e annuale).</p>
             </div>
 
             <div id="subInlineMessage" class="subInlineMessage" role="status" aria-live="polite"></div>
