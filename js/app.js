@@ -23,14 +23,14 @@
     supportEmail: "info@sdac.it",
     plans: {
       annual: {
-        label: "Abbonamento mensile",
-        price: "0,69 € / mese",
-        badge: "Flessibile"
-      },
-      monthly: {
         label: "Abbonamento annuale",
         price: "4,99 € / anno",
         badge: "Consigliato"
+      },
+      monthly: {
+        label: "Abbonamento mensile",
+        price: "0,69 € / mese",
+        badge: "Flessibile"
       }
     },
     providers: {
