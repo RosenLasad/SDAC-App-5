@@ -1327,7 +1327,7 @@
     if (featureLabel) {
       setSubscribeMessage("Puoi continuare con la versione Free oppure completare l’attivazione dell’abbonamento.", "info");
     } else if (isAuthenticated()) {
-      setSubscribeMessage("Account collegato correttamente. Il checkout userà il tuo utente Supabase.", "info");
+      setSubscribeMessage("Account collegato.", "info");
     }
   }
 
