@@ -36,12 +36,12 @@
     providers: {
       stripe: {
         name: "Carta di credito / debito",
-        note: "Checkout sicuro ospitato da Stripe.",
+        note: "Checkout sicuro gestito da Stripe.",
         enabled: true
       },
       paypal: {
         name: "PayPal",
-        note: "In arrivo. Per ora l'abbonamento reale passa da Stripe.",
+        note: "In arrivo.",
         enabled: false
       }
     }
@@ -549,7 +549,7 @@
 
         <div class="subNoteList">
           <p>Puoi gestire il tuo piano in qualsiasi momento.</p>
-          <p><strong>Nota:</strong> se nelle impostazioni di Supabase è attiva la conferma email, un nuovo utente potrebbe dover confermare l'indirizzo prima di usare il checkout.</p>
+          <p><strong>Nota:</strong> l'app è attualmente in fase di sviluppo e ampliamento.</p>
         </div>
       </section>
     `;
@@ -897,8 +897,8 @@
             <div class="subHero__eyebrow">Piano attuale: ${currentPlan}</div>
             <h3>Sblocca tutto il potenziale di SDAC App</h3>
             <p>
-              Inizia gratis con gli strumenti base, oppure passa all’abbonamento per usare SDAC App senza limiti,
-              salvare i tuoi progetti e condividere il tuo lavoro.
+              Gli strumenti base sono gratuiti, ma se passi all’abbonamento puoi usare SDAC App senza limiti,
+              salvare i tuoi progetti e condividere i tuoi lavori.
             </p>
           </div>
           <div class="subHero__cta">
@@ -1005,7 +1005,7 @@
               ` : `
                 <div class="subInlineMessage is-info">
                   <strong>Account collegato:</strong><br>
-                  per l'abbonamento reale useremo l'utente autenticato che stai già usando in SDAC App.
+                  puoi gestire il piano e l'abbonamento sul pannello dell'utente.
                 </div>
               `}
             </div>
@@ -1053,7 +1053,7 @@
             </div>
 
             <div class="subActions">
-              <button class="chip chip--primary" type="submit" id="subSubscribeButton">${premiumUser ? "Aggiorna con Stripe" : "Abbonati con Stripe"}</button>
+              <button class="chip chip--primary" type="submit" id="subSubscribeButton">${premiumUser ? "Aggiorna" : "Abbonati"}</button>
               <button class="chip chip--button" type="button" id="subSaveDraft">Salva profilo</button>
             </div>
 
