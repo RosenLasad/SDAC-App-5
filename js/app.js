@@ -950,7 +950,7 @@
               <h4>${premiumUser ? 'Gestisci il tuo piano' : 'Attiva il tuo abbonamento'}</h4>
               <p class="muted">
                 ${loggedIn
-                  ? "Il tuo account è già collegato. Il checkout Stripe userà questo profilo."
+                  ? "Il tuo account è già collegato."
                   : "Se non hai ancora un account, l'app prova a crearlo prima di aprire il checkout Stripe."}
               </p>
             </div>
